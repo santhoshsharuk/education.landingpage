@@ -1,0 +1,42 @@
+/* Custom styles to preserve design details */
+
+/* Base font settings */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* FAQ item styling */
+.faq-item h3 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+.faq-item p {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Mentor card customizations */
+.card-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+.card-text {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Testimonial styling */
+.testimonial {
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+}
+
+/* Optional adjustments for buttons and spacing */
+.btn-primary {
+  background-color: #0a66c2;
+  border-color: #0a66c2;
+}
+.btn-success {
+  background-color: #78c043;
+  border-color: #78c043;
+}
+
+/* Additional custom styles can be added here to match your original design details */

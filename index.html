@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Go Programming Course</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Navigation -->
+  <nav class="bg-white shadow-md">
+    <div class="container mx-auto px-4 sm:px-10 flex justify-between items-center p-5">
+      <div class="text-xl font-bold text-blue-600">Coder Lounge</div>
+      <ul class="hidden md:flex space-x-6">
+        <li><a href="#" class="text-gray-600 hover:text-blue-600">About Us</a></li>
+        <li><a href="#" class="text-gray-600 hover:text-blue-600">Courses</a></li>
+        <li><a href="#" class="text-gray-600 hover:text-blue-600">Events</a></li>
+        <li><a href="#" class="text-gray-600 hover:text-blue-600">Blogs</a></li>
+      </ul>
+      <button class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600">
+        Apply Now
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="bg-blue-100 py-20 px-4 sm:px-10 flex flex-col lg:flex-row items-center justify-between">
+    <div class="max-w-xl">
+      <span class="text-sm font-semibold bg-blue-200 px-2 py-1 rounded-md">Specialization over generalization</span>
+      <h1 class="text-4xl font-bold mt-4">
+        Master <span class="text-green-500">Go Programming</span> <br> From Beginner to Pro!
+      </h1>
+      <p class="mt-4 text-gray-700">
+        Join our interactive Go language courses and transform your coding skills. Learn to build efficient, scalable applications with one of the fastest-growing programming languages.
+      </p>
+      <div class="mt-6">
+        <span class="text-lg font-semibold text-red-500">Live Interactive Classes</span>
+      </div>
+      <button class="mt-4 bg-gray-900 text-white px-6 py-2 rounded-lg hover:bg-gray-800">
+        Download Brochure
+      </button>
+    </div>
+
+    <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-sm mt-10 lg:mt-0">
+      <h2 class="text-xl font-bold text-gray-800">We’re here to help!</h2>
+      <p class="text-sm text-gray-600 mb-4">Please contact us in case of any query.</p>
+      <form class="space-y-4">
+        <input type="text" placeholder="Your name" class="w-full p-2 border border-gray-300 rounded-md" />
+        <input type="email" placeholder="Your email address" class="w-full p-2 border border-gray-300 rounded-md" />
+        <input type="tel" placeholder="Your phone number" class="w-full p-2 border border-gray-300 rounded-md" />
+        <select class="w-full p-2 border border-gray-300 rounded-md">
+          <option>Select Course</option>
+          <option>Beginner Go Programming</option>
+          <option>Advanced Go Development</option>
+        </select>
+        <button class="bg-green-500 text-white px-4 py-2 w-full rounded-lg hover:bg-green-600">
+          Get in Touch
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="py-10 px-4 sm:px-10">
+    <div class="container mx-auto bg-white shadow-lg p-6 rounded-lg grid grid-cols-1 sm:grid-cols-3 gap-6 text-center items-center">
+      <div>
+        <div class="text-green-600 text-2xl font-bold">126%</div>
+        <div class="text-gray-600 text-sm">170% Average Salary Hike</div>
+      </div>
+      <div>
+        <div class="text-yellow-600 text-2xl font-bold">100+</div>
+        <div class="text-gray-600 text-sm">Job Placements</div>
+      </div>
+      <div>
+        <div class="text-red-600 text-2xl font-bold">Live</div>
+        <div class="text-gray-600 text-sm">Interactive Sessions</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Join This Program -->
+  <section class="bg-gray-50 py-20 px-4 sm:px-10 text-center">
+    <p class="text-green-600 font-semibold text-sm uppercase">Related Courses</p>
+    <h2 class="text-3xl font-bold text-gray-800 mt-2">Why Join this Program?</h2>
+
+    <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Card 1 -->
+      <div class="bg-white p-6 shadow-lg rounded-lg text-center">
+        <div class="flex justify-center mb-4">
+          <img src="https://cdn-icons-png.flaticon.com/512/3905/3905120.png" alt="Work Experience" class="w-12" />
+        </div>
+        <h3 class="text-lg font-bold text-gray-800">Real Work Experience</h3>
+        <p class="text-gray-600 mt-2">
+          Work with companies directly on software development projects to master your skills and build a strong project portfolio.
+        </p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-white p-6 shadow-lg rounded-lg text-center">
+        <div class="flex justify-center mb-4">
+          <img src="https://cdn-icons-png.flaticon.com/512/2641/2641426.png" alt="Job Referral" class="w-12" />
+        </div>
+        <h3 class="text-lg font-bold text-gray-800">Guaranteed Job Referral</h3>
+        <p class="text-gray-600 mt-2">
+          Our program seeks to eliminate financial risk in the upskilling journey with our guaranteed job referral option.
+        </p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white p-6 shadow-lg rounded-lg text-center">
+        <div class="flex justify-center mb-4">
+          <img src="https://cdn-icons-png.flaticon.com/512/2662/2662503.png" alt="FAANG Interview" class="w-12" />
+        </div>
+        <h3 class="text-lg font-bold text-gray-800">Crack FAANG Interview</h3>
+        <p class="text-gray-600 mt-2">
+          Interact and learn from mentors working in top product-based companies to crack interviews for your dream role.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Alumni Placement Section -->
+  <section class="bg-white py-20 px-4 sm:px-10 text-center">
+    <p class="text-green-600 font-semibold text-sm uppercase">Our Alumni Placed</p>
+    <h2 class="text-3xl font-bold text-gray-800 mt-2">Explore Our Alumni & Connect With Them</h2>
+
+    <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Alumni Card 1 -->
+      <div class="bg-white p-6 shadow-lg rounded-lg text-left">
+        <div class="flex justify-between">
+          <img src="images/v0_170.png" alt="Shaumaya Qha" class="w-12 h-12 rounded-full" />
+          <span class="bg-green-100 text-green-600 px-3 py-1 rounded-full text-sm font-semibold">⬆ 120% Hike</span>
+        </div>
+        <h3 class="text-lg font-bold text-gray-800 mt-3">Shaumaya Qha</h3>
+        <p class="text-gray-600 text-sm">Software Engineer</p>
+        <p class="mt-2 text-gray-600">
+          Apart from regular live classes, I was assigned with a Mentor from Microsoft, who guided me throughout.
+        </p>
+        <p class="font-semibold mt-2">
+          J.P.Morgan → <span class="text-blue-500">Walmart</span>
+        </p>
+        <a href="#" class="text-blue-600 text-sm mt-2 inline-flex items-center">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" class="w-4 mr-1" />
+          Read full review
+        </a>
+      </div>
+
+      <!-- Alumni Card 2 -->
+      <div class="bg-white p-6 shadow-lg rounded-lg text-left">
+        <div class="flex justify-between">
+          <img src="images/v0_197.png" alt="Subhangi Duhan" class="w-12 h-12 rounded-full" />
+          <span class="bg-green-100 text-green-600 px-3 py-1 rounded-full text-sm font-semibold">⬆ 90% Hike</span>
+        </div>
+        <h3 class="text-lg font-bold text-gray-800 mt-3">Subhangi Duhan</h3>
+        <p class="text-gray-600 text-sm">Software Researcher</p>
+        <p class="mt-2 text-gray-600">
+          My focus was more into System Design, and I learned high-level concepts to crack Microsoft.
+        </p>
+        <p class="font-semibold mt-2">
+          J.P.Morgan → <span class="text-yellow-500">Microsoft</span>
+        </p>
+        <a href="#" class="text-blue-600 text-sm mt-2 inline-flex items-center">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" class="w-4 mr-1" />
+          Read full review
+        </a>
+      </div>
+
+      <!-- Alumni Card 3 -->
+      <div class="bg-white p-6 shadow-lg rounded-lg text-left">
+        <div class="flex justify-between">
+          <img src="images/v0_224.png" alt="Paras Yadav" class="w-12 h-12 rounded-full" />
+          <span class="bg-green-100 text-green-600 px-3 py-1 rounded-full text-sm font-semibold">⬆ 80% Hike</span>
+        </div>
+        <h3 class="text-lg font-bold text-gray-800 mt-3">Paras Yadav</h3>
+        <p class="text-gray-600 text-sm">Software Tester</p>
+        <p class="mt-2 text-gray-600">
+          My mentor at My.Tutor helped me stay consistent in solving problems and achieving my goals.
+        </p>
+        <p class="font-semibold mt-2">
+          CommScope → <span class="text-green-500">Cohesity</span>
+        </p>
+        <a href="#" class="text-blue-600 text-sm mt-2 inline-flex items-center">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" class="w-4 mr-1" />
+          Read full review
+        </a>
+      </div>
+    </div>
+    <div class="mt-6 flex justify-center">
+      <button class="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600">
+        Connect Now →
+      </button>
+    </div>
+  </section>
+
+  <!-- Curriculum Section -->
+  <section class="bg-white py-20 px-4 sm:px-10">
+    <p class="text-green-600 font-semibold text-sm uppercase text-center">A Roadmap For Success</p>
+    <h2 class="text-3xl font-bold text-gray-800 text-center mt-2">
+      Our Comprehensive Curriculum, Designed for Professionals
+    </h2>
+
+    <div class="mt-10 grid grid-cols-1 lg:grid-cols-3 gap-10">
+      <!-- Course Content -->
+      <div class="lg:col-span-2">
+        <h3 class="text-xl font-bold text-gray-800">Course Description</h3>
+        <p class="text-gray-600 mt-2">
+          Learn Go (Golang), one of the fastest-growing programming languages for modern software development.
+          This comprehensive curriculum will take you from beginner to advanced concepts, enabling you to build
+          scalable and high-performance applications. Perfect for developers looking to enhance their backend
+          and system programming skills.
+        </p>
+
+        <!-- Accordion -->
+        <div class="mt-6 space-y-3">
+          <details class="border border-gray-300 rounded-lg p-3 cursor-pointer">
+            <summary class="text-lg font-semibold">Unit 0 - Introduction to Go Programming</summary>
+          </details>
+          <details class="border border-gray-300 rounded-lg p-3 cursor-pointer">
+            <summary class="text-lg font-semibold">Unit 1 - Core Go Concepts</summary>
+          </details>
+          <details class="border border-gray-300 rounded-lg p-3 cursor-pointer">
+            <summary class="text-lg font-semibold">Unit 2 - Advanced Go Programming</summary>
+          </details>
+          <details class="border border-gray-300 rounded-lg p-3 cursor-pointer">
+            <summary class="text-lg font-semibold">Unit 3 - Building Applications with Go</summary>
+          </details>
+          <details class="border border-gray-300 rounded-lg p-3 cursor-pointer">
+            <summary class="text-lg font-semibold">Unit 4 - Special Topics and Real-World Applications</summary>
+          </details>
+          <details class="border border-gray-300 rounded-lg p-3 cursor-pointer">
+            <summary class="text-lg font-semibold">Unit 5 - Capstone Project</summary>
+          </details>
+        </div>
+      </div>
+
+      <!-- Counselling Form -->
+      <div class="bg-white shadow-lg rounded-lg p-6">
+        <img src="https://i.pinimg.com/736x/30/44/9e/30449e9c7e76cb98a730133d9e9c7b08.jpg" alt="Student" class="rounded-lg mb-4" />
+        <form class="space-y-3">
+          <input type="text" placeholder="Enter Full Name" class="w-full p-3 border border-gray-300 rounded-md" />
+          <input type="email" placeholder="Enter email address" class="w-full p-3 border border-gray-300 rounded-md" />
+          <input type="tel" placeholder="Enter phone number" class="w-full p-3 border border-gray-300 rounded-md" />
+          <select class="w-full p-3 border border-gray-300 rounded-md">
+            <option>Select Course</option>
+            <option>Beginner Go Programming</option>
+            <option>Advanced Go Development</option>
+          </select>
+          <input type="datetime-local" class="w-full p-3 border border-gray-300 rounded-md" />
+          <p class="text-xs text-gray-500">
+            By submitting the form, you agree to our <a href="#" class="text-blue-600">Terms</a> and <a href="#" class="text-blue-600">Privacy Policy</a>.
+          </p>
+          <button class="bg-green-500 text-white px-4 py-3 w-full rounded-lg hover:bg-green-600">
+            Apply for Counselling
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hands-on Projects Section -->
+  <section class="bg-white py-20 px-4 sm:px-10">
+    <div class="text-center mb-6">
+      <button class="border border-green-500 text-green-500 px-4 py-2 rounded-lg hover:bg-green-100 flex items-center justify-center">
+        ⬇ Download Brochure
+      </button>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+      <!-- Left Section -->
+      <div>
+        <h2 class="text-3xl font-bold text-gray-800">Hands-on Projects</h2>
+        <p class="text-gray-600 mt-2">
+          Find out how our Mentor transformed their careers by giving Hands-on Projects.
+        </p>
+
+        <div class="flex space-x-4 mt-4">
+          <div class="bg-blue-900 text-white px-4 py-2 rounded-md text-center">
+            <p class="text-lg font-bold">10+</p>
+            <p class="text-sm">Projects</p>
+          </div>
+          <div class="bg-green-500 text-white px-4 py-2 rounded-md text-center">
+            <p class="text-lg font-bold">06+</p>
+            <p class="text-sm">Domains</p>
+          </div>
+        </div>
+
+        <!-- Navigation Arrows -->
+        <div class="flex space-x-4 mt-6">
+          <button class="border border-gray-400 p-2 rounded-full hover:bg-gray-200">⬅</button>
+          <button class="border border-gray-400 p-2 rounded-full hover:bg-gray-200">➡</button>
+        </div>
+      </div>
+
+      <!-- Right Section -->
+      <div class="bg-white shadow-lg rounded-lg p-6">
+        <h3 class="text-xl font-semibold text-gray-800">Authentication</h3>
+        <!-- Company Logos -->
+        <div class="flex space-x-4 mt-2">
+          <img src="images/v0_507.png" alt="Symantec" class="w-20" />
+          <img src="" alt="Cisco" class="w-20" />
+        </div>
+        <p class="text-gray-600 mt-2">
+          Create authentication technology to give access, correspond to those stored in a database of authorized users.
+        </p>
+        <!-- Tools Used -->
+        <p class="mt-4 font-semibold">Tools:</p>
+        <div class="flex space-x-4 mt-2">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" class="w-8" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Postgresql_elephant.svg" alt="PostgreSQL" class="w-8" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="SQL" class="w-8" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="Node.js" class="w-8" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Course Highlights & Fees Section -->
+  <section class="bg-white py-10 px-4 sm:px-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <!-- Course Highlights -->
+      <div class="bg-white shadow-lg p-6 rounded-lg">
+        <h3 class="text-green-600 font-semibold text-lg">Course Highlights</h3>
+        <ul class="mt-4 space-y-3 text-gray-600">
+          <li class="flex items-center"><span class="text-green-600 mr-2">📺</span> 350+ Live sessions</li>
+          <li class="flex items-center"><span class="text-green-600 mr-2">🛠</span> 15+ Industry Projects</li>
+          <li class="flex items-center"><span class="text-green-600 mr-2">🔓</span> Lifetime access</li>
+          <li class="flex items-center"><span class="text-green-600 mr-2">🚀</span> Live project experience</li>
+        </ul>
+      </div>
+      <!-- Course Fees -->
+      <div class="bg-white shadow-lg p-6 rounded-lg">
+        <h3 class="text-xl font-bold text-gray-800">Course Fees</h3>
+        <p class="text-gray-600 mt-2">
+          We are driven by the idea of program affordability. So, we give you several financial options to manage
+          and budget the expenses of your course.
+        </p>
+        <p class="text-2xl font-bold text-black mt-4">Starting at ₹ 120,000 + GST</p>
+        <p class="text-gray-500 text-sm">EMI starting from: ₹ 5,900/month</p>
+        <button class="mt-4 bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600">Apply Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Next Cohort Details Section -->
+  <section class="bg-white py-10 px-4 sm:px-10">
+    <h2 class="text-2xl font-bold text-gray-800 text-center">Next Cohort Details</h2>
+    <div class="mt-6 bg-white shadow-lg rounded-lg p-6 flex flex-col md:flex-row items-center justify-between">
+      <!-- Date -->
+      <div class="text-center border-b md:border-b-0 md:border-r pr-0 md:pr-6 mb-4 md:mb-0">
+        <p class="text-gray-500 text-sm uppercase">MAR</p>
+        <p class="text-3xl font-bold text-gray-800">19</p>
+      </div>
+      <!-- Batch Info -->
+      <div class="flex-grow px-0 md:px-6">
+        <p class="text-lg font-bold">Weekend Batch [Sat - Sun]</p>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-2 text-gray-600 text-sm">
+          <div>
+            <p class="font-semibold">Batch</p>
+            <p>Morning</p>
+          </div>
+          <div>
+            <p class="font-semibold">Time</p>
+            <p>09:00 am - 12:00 pm</p>
+          </div>
+          <div>
+            <p class="font-semibold">Seat</p>
+            <p>Available</p>
+          </div>
+          <div>
+            <p class="font-semibold">Venue</p>
+            <p>Virtual Hall</p>
+          </div>
+        </div>
+      </div>
+      <!-- Enroll Button -->
+      <button class="mt-4 md:mt-0 bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600">Enroll Now</button>
+    </div>
+  </section>
+
+  <!-- Mentor Section -->
+  <section class="bg-white py-20 px-4 sm:px-10 text-center">
+    <p class="text-blue-500 font-semibold text-sm uppercase">Discover Our Mentors</p>
+    <h2 class="text-3xl font-bold text-gray-800 mt-2">
+      We have Industry Experts as Mentors who guide you with <br>
+      Career Planning & Interview Preparation
+    </h2>
+
+    <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Mentor 1 -->
+      <div class="bg-white shadow-lg rounded-lg p-6 text-left">
+        <div class="w-full h-40 bg-gray-300 rounded-lg"></div>
+        <h3 class="text-lg font-bold text-gray-800 mt-3">Sachin Sharma</h3>
+        <p class="text-gray-600 text-sm">Managing Director</p>
+        <div class="flex items-center mt-2">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft" class="w-5" />
+        </div>
+        <a href="#" class="text-blue-600 text-sm mt-3 inline-flex items-center">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" class="w-4 mr-1" /> View Profile
+        </a>
+      </div>
+
+      <!-- Mentor 2 -->
+      <div class="bg-white shadow-lg rounded-lg p-6 text-left">
+        <div class="w-full h-40 bg-gray-300 rounded-lg"></div>
+        <h3 class="text-lg font-bold text-gray-800 mt-3">Santosh Kumar Mishra</h3>
+        <p class="text-gray-600 text-sm">Managing Director</p>
+        <div class="flex items-center mt-2">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft" class="w-5" />
+        </div>
+        <a href="#" class="text-blue-600 text-sm mt-3 inline-flex items-center">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" class="w-4 mr-1" /> View Profile
+        </a>
+      </div>
+
+      <!-- Mentor 3 -->
+      <div class="bg-white shadow-lg rounded-lg p-6 text-left">
+        <div class="w-full h-40 bg-gray-300 rounded-lg"></div>
+        <h3 class="text-lg font-bold text-gray-800 mt-3">Prem Kumar</h3>
+        <p class="text-gray-600 text-sm">Mentorship</p>
+        <div class="flex items-center mt-2">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft" class="w-5" />
+        </div>
+        <a href="#" class="text-blue-600 text-sm mt-3 inline-flex items-center">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" class="w-4 mr-1" /> View Profile
+        </a>
+      </div>
+    </div>
+
+    <div class="mt-6 flex justify-center space-x-2">
+      <span class="w-3 h-3 bg-green-500 rounded-full"></span>
+      <span class="w-3 h-3 bg-gray-300 rounded-full"></span>
+      <span class="w-3 h-3 bg-gray-300 rounded-full"></span>
+      <span class="w-3 h-3 bg-gray-300 rounded-full"></span>
+    </div>
+
+    <button class="mt-6 bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600">More Mentor Details</button>
+  </section>
+
+  <!-- Testimonial Section -->
+  <section class="bg-white py-20 px-4 sm:px-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+      <!-- Left Content -->
+      <div>
+        <h2 class="text-4xl font-bold text-gray-800">Thousands of stories of growth</h2>
+        <p class="text-gray-600 mt-2">
+          Find out how our learners transformed their careers after learning with us.
+        </p>
+      </div>
+      <!-- Right Testimonial Card -->
+      <div class="bg-white shadow-lg rounded-lg p-6">
+        <div class="text-blue-500 text-4xl font-bold">❝</div>
+        <p class="text-gray-600 mt-2">
+          "As a senior engineer I have specially reviewed the System Design content
+          and live classes of My.Tutor and I found it more on the implementation side
+          instead of theoretical concepts which helps to work in a real-time environment.
+          I would recommend My.Tutor course to get expertise in System Design."
+        </p>
+        <div class="flex items-center mt-4">
+          <img src="images/v0_377.png" alt="Prem Kumar" class="w-12 h-12 rounded-full" />
+          <div class="ml-3">
+            <p class="text-green-600 font-semibold">Prem Kumar</p>
+            <div class="flex text-yellow-500 text-sm">
+              ⭐⭐⭐⭐☆
+            </div>
+          </div>
+        </div>
+        <a href="#" class="text-blue-600 text-sm mt-4 inline-flex items-center">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" class="w-4 mr-1" /> View Profile
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Live Testimonials Section -->
+  <section class="bg-white py-20 px-4 sm:px-10 text-center">
+    <h2 class="text-3xl font-bold text-gray-800">100+ live testimonials</h2>
+    <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Testimonial 1 -->
+      <div class="relative group">
+        <img src="images/v0_793.png" alt="Albert Flores" class="w-full h-96 rounded-lg object-cover" />
+        <div class="absolute bottom-4 left-4 text-white">
+          <p class="text-lg font-bold">Albert Flores</p>
+          <p class="text-sm">Founder of Startup</p>
+        </div>
+        <button class="absolute bottom-4 right-4 bg-black bg-opacity-50 text-white p-3 rounded-full">▶</button>
+      </div>
+      <!-- Testimonial 2 -->
+      <div class="relative group">
+        <img src="images/v0_803.png" alt="Leslie Alexander" class="w-full h-96 rounded-lg object-cover" />
+        <div class="absolute bottom-4 left-4 text-white">
+          <p class="text-lg font-bold">Leslie Alexander</p>
+          <p class="text-sm">Co-Founder of XYZ</p>
+        </div>
+        <button class="absolute bottom-4 right-4 bg-black bg-opacity-50 text-white p-3 rounded-full">⏸</button>
+      </div>
+      <!-- Testimonial 3 -->
+      <div class="relative group">
+        <img src="images/v0_813.png" alt="Courtney Henry" class="w-full h-96 rounded-lg object-cover" />
+        <div class="absolute bottom-4 left-4 text-white">
+          <p class="text-lg font-bold">Courtney Henry</p>
+          <p class="text-sm">Head of CH Beauty</p>
+        </div>
+        <button class="absolute bottom-4 right-4 bg-black bg-opacity-50 text-white p-3 rounded-full">▶</button>
+      </div>
+    </div>
+    <a href="#" class="mt-6 inline-block text-green-600 font-semibold hover:underline">
+      See all reviews by our Students →
+    </a>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="bg-white py-20 px-4 sm:px-10 text-center">
+    <p class="text-green-600 font-semibold text-sm uppercase">Ask Your Questions</p>
+    <h2 class="text-3xl font-bold text-gray-800 mt-2">Frequently Asked Questions</h2>
+    <div class="max-w-3xl mx-auto mt-8 space-y-4">
+      <!-- FAQ 1 -->
+      <div class="border border-gray-300 rounded-lg p-4">
+        <button class="w-full text-left flex justify-between items-center" onclick="toggleFAQ('faq1')">
+          <span class="text-lg font-semibold">How to enroll for a Course?</span>
+          <span class="text-green-600 text-2xl">+</span>
+        </button>
+        <p id="faq1" class="text-gray-600 mt-2 hidden">
+          You can enroll in a course by visiting our website, selecting your desired course, and completing the registration process.
+        </p>
+      </div>
+      <!-- FAQ 2 -->
+      <div class="border border-gray-300 rounded-lg p-4">
+        <button class="w-full text-left flex justify-between items-center" onclick="toggleFAQ('faq2')">
+          <span class="text-lg font-semibold">Can I get the recordings of my previous lectures?</span>
+          <span class="text-green-600 text-2xl">+</span>
+        </button>
+        <p id="faq2" class="text-gray-600 mt-2 hidden">
+          Yes, all enrolled students get access to previous lecture recordings.
+        </p>
+      </div>
+      <!-- FAQ 3 -->
+      <div class="border border-gray-300 rounded-lg p-4">
+        <button class="w-full text-left flex justify-between items-center" onclick="toggleFAQ('faq3')">
+          <span class="text-lg font-semibold">Who would be the instructor for enrolled course?</span>
+          <span class="text-green-600 text-2xl">+</span>
+        </button>
+        <p id="faq3" class="text-gray-600 mt-2 hidden">
+          Our instructors are industry experts with years of experience in their respective fields.
+        </p>
+      </div>
+      <!-- FAQ 4 -->
+      <div class="border border-gray-300 rounded-lg p-4">
+        <button class="w-full text-left flex justify-between items-center" onclick="toggleFAQ('faq4')">
+          <span class="text-lg font-semibold">What kind of placement support will be given post completion of program?</span>
+          <span class="text-green-600 text-2xl">+</span>
+        </button>
+        <p id="faq4" class="text-gray-600 mt-2 hidden">
+          We provide resume building, mock interviews, and direct job referrals to top companies.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-green-500 text-white py-10 px-4 sm:px-10">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+      <!-- Company Info -->
+      <div>
+        <h2 class="text-xl font-bold">CoderRange</h2>
+        <p class="text-sm mt-2">
+          It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+        </p>
+        <div class="flex space-x-4 mt-4">
+          <a href="#" class="bg-white text-green-500 p-2 rounded-full"><b>F</b></a>
+          <a href="#" class="bg-white text-green-500 p-2 rounded-full"><b>in</b></a>
+          <a href="#" class="bg-white text-green-500 p-2 rounded-full"><b>P</b></a>
+          <a href="#" class="bg-white text-green-500 p-2 rounded-full"><b>🐦</b></a>
+        </div>
+      </div>
+      <!-- Explore Links -->
+      <div>
+        <h3 class="text-lg font-bold">Explore</h3>
+        <ul class="mt-2 space-y-2 text-sm">
+          <li><a href="#" class="hover:underline">About Us</a></li>
+          <li><a href="#" class="hover:underline">Blog</a></li>
+          <li><a href="#" class="hover:underline">Campus Program</a></li>
+          <li><a href="#" class="hover:underline">Become a Mentor</a></li>
+          <li><a href="#" class="hover:underline">Contact Us</a></li>
+          <li><a href="#" class="hover:underline">Hire From Us</a></li>
+        </ul>
+      </div>
+      <!-- Useful Links -->
+      <div>
+        <h3 class="text-lg font-bold">Useful Links</h3>
+        <ul class="mt-2 space-y-2 text-sm">
+          <li><a href="#" class="hover:underline">Privacy Policy</a></li>
+          <li><a href="#" class="hover:underline">Terms of Use</a></li>
+          <li><a href="#" class="hover:underline">Refund Policy</a></li>
+        </ul>
+      </div>
+      <!-- Contact Info -->
+      <div>
+        <h3 class="text-lg font-bold">Contact Info</h3>
+        <ul class="mt-2 space-y-2 text-sm">
+          <li>📍 Bengaluru</li>
+          <li>📞 +91-9944657693</li>
+          <li>📧 coderrange@gmail.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="text-center text-sm mt-6">
+      Copyright 2024 CoderRange | Designed by Techsaasworks.
+    </div>
+  </footer>
+
+  <!-- FAQ Toggle Script -->
+  <script>
+    function toggleFAQ(id) {
+      var element = document.getElementById(id);
+      element.classList.toggle('hidden');
+    }
+  </script>
+</body>
+</html>
